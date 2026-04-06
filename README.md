@@ -43,6 +43,7 @@ src/
 3.  **Install dependencies:**
     ```bash
     npm install
+    npm install react-router-dom
     ```
 
 4.  **Start the development server:**
