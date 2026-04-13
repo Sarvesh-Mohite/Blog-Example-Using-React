@@ -65,6 +65,6 @@ src/
 This project uses **React Router v6**. If you are migrating from v5, please note that `<Switch>` has been replaced by `<Routes>` and the `component` prop has been replaced by `element={<Component />}`.
 
 ##SCREEN SHOTS:
-<img width="1040" height="710" alt="image" src="https://github.com/user-attachments/assets/691e5051-b893-49a2-a551-9184619b8570" />
+<img width="1896" height="855" alt="image" src="https://github.com/user-attachments/assets/19348162-52ae-4616-aa61-3ee449a621ae" />
 <img width="891" height="715" alt="image" src="https://github.com/user-attachments/assets/fdae38b8-0975-4fc7-b508-a0b2f2f027cd" />
 <img width="702" height="681" alt="image" src="https://github.com/user-attachments/assets/a6338c64-cb34-43db-96cc-2daeb75c2a27" />
