@@ -21,7 +21,8 @@ A modern, responsive React application utilizing **React Router v6** for seamles
 src/
 ├── components/
 │   ├── BlogsList/
-│   ├── BlogItem/   
+│   ├── BlogItem/
+│   ├── BlogItemDetails/
 │   ├── Header/     # Navigation bar
 │   ├── Home/       # Landing page
 │   ├── About/      # Company/Person info
@@ -71,3 +72,5 @@ This project uses **React Router v6**. If you are migrating from v5, please note
 <img width="1896" height="855" alt="image" src="https://github.com/user-attachments/assets/19348162-52ae-4616-aa61-3ee449a621ae" />
 <img width="625" height="706" alt="image" src="https://github.com/user-attachments/assets/25f093a4-5339-4d4b-beb4-862d440790b5" />
 <img width="504" height="654" alt="image" src="https://github.com/user-attachments/assets/b6c5442b-06b8-4162-af93-7a687c1a57ca" />
+<img width="1008" height="1064" alt="image" src="https://github.com/user-attachments/assets/95342908-3a75-4bbb-9ee1-131d74d297c1" />
+
