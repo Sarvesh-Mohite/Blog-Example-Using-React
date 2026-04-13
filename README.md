@@ -44,6 +44,7 @@ src/
     ```bash
     npm install
     npm install react-router-dom
+    npm install react-loader-spinner@4.0.0 --save
     ```
 
 4.  **Start the development server:**
