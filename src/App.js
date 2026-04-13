@@ -4,13 +4,14 @@ import Header from './components/Header'
 import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
+import BlogsList from './components/BlogsList'
 
 const App = () => (
   <BrowserRouter>
     <Header />
     <Routes> {/* Changed Switch to Routes */}
       {/* Updated component to element and removed exact */}
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<BlogsList />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       
