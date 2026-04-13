@@ -12,6 +12,17 @@
   flex-direction: column;
   margin: 15px;
 }
+
+.blog-item-link {
+  text-decoration: none; /* Removes the underline */
+  color: inherit;        /* Makes the text take the color of its parent (usually black/dark grey) */
+}
+
+/* Optional: To ensure it doesn't turn purple after being clicked */
+.blog-item-link:visited {
+  color: inherit;
+}
+
 @media screen and (min-width: 575px) {
   .item-container {
     flex-direction: row;
@@ -65,3 +76,4 @@
   color: #8e8e8e;
   font-size: 14px;
 }
+

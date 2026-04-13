@@ -1,11 +1,14 @@
 import {Component} from 'react'
 import Loader from 'react-loader-spinner'
+
+import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
+
 import BlogItem from '../BlogItem'
 
 import './index.css'
 
 class BlogsList extends Component {
-  state = {blogsData: [], isLoading: true}
+  state = {isLoading: true, blogsData: []}
 
   componentDidMount() {
     this.getBlogsData()
@@ -14,7 +17,7 @@ class BlogsList extends Component {
   getBlogsData = async () => {
     const response = await fetch('https://apis.ccbp.in/blogs')
     const data = await response.json()
-    const updatedData = data.map(eachItem => ({
+    const formattedData = data.map(eachItem => ({
       id: eachItem.id,
       title: eachItem.title,
       imageUrl: eachItem.image_url,
@@ -22,8 +25,7 @@ class BlogsList extends Component {
       author: eachItem.author,
       topic: eachItem.topic,
     }))
-    console.log(updatedData)
-    this.setState({blogsData: updatedData, isLoading: false})
+    this.setState({blogsData: formattedData, isLoading: false})
   }
 
   render() {

@@ -1,16 +1,17 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom' // Changed Switch to Routes
 import NotFound from './components/NotFound'
 import Header from './components/Header'
-import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import BlogsList from './components/BlogsList'
+import BlogItemDetails from './components/BlogItemDetails'
 
 const App = () => (
   <BrowserRouter>
     <Header />
     <Routes> {/* Changed Switch to Routes */}
       {/* Updated component to element and removed exact */}
+      <Route path="/blogs/:id" element={<BlogItemDetails/>} />
       <Route path="/" element={<BlogsList />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
