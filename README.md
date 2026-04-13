@@ -20,6 +20,8 @@ A modern, responsive React application utilizing **React Router v6** for seamles
 ```text
 src/
 ├── components/
+│   ├── BlogsList/
+│   ├── BlogItem/   
 │   ├── Header/     # Navigation bar
 │   ├── Home/       # Landing page
 │   ├── About/      # Company/Person info
